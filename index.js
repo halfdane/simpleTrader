@@ -21,7 +21,7 @@ const binanceRest = new api.BinanceRest({
 
 const binanceWS = new api.BinanceWS();
 binanceWS.onAggTrade('BNBBTC', (data) => {
-    console.log(data);
+    //console.log(data);
 });
 
 
